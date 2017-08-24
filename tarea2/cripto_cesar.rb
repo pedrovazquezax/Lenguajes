@@ -15,9 +15,9 @@ end
 
 def validar(dato)
 
-  if dato>26
-    dato=dato-26
-  end
+    if dato>26
+      dato=dato-26
+    end
   return dato
 end
 
@@ -58,7 +58,7 @@ end
 
 def str_to_array(str)
   str=str.upcase
-  str=str.gsub(" ",)
+  str=str.gsub(" ","")
   cad=[]
   cad=str.split("")
   return cad
