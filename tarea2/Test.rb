@@ -1,6 +1,5 @@
 load "Cripto.rb"
 cripto=Cripto.new
-
 print "Dame el desplazamiento "
 desp= gets.to_i
 print "Dame la cadena a encriptar "
