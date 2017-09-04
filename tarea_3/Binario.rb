@@ -26,11 +26,7 @@ class Binario
   def binToDec(cadena)
 
     noADec= []
-
     noADec = strToArray(cadena)
-
-    print(noADec)
-
     i=0
     j=(noADec.length-1)
     result = 0
@@ -38,15 +34,11 @@ class Binario
       until i==(noADec.length)
 
         if noADec[i] ==  "1"
-          print("\ni=#{i}\n")
           result += Math.ldexp(1,j).to_i
           i+=1
-          print("\nj=#{j} arreglo =#{noADec[i]}\n")
           j-=1
         else
         i+=1
-        print("\ni=#{i}\n")
-        print("\nj=#{j} arreglo =#{noADec[i]}\n")
         j-=1
         end
 
