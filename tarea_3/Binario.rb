@@ -20,6 +20,12 @@ class Binario
     end
     return noAConvertir
   end
+  def complementA2(cadena)
+    noComplementoA2=[]
+    noComplementoA2= complementA1(cadena)
+
+
+  end
 
 
 
@@ -46,6 +52,10 @@ class Binario
 
     return result
 
+  end
+  
+  def decToBin(entero)
+      entero.to_s(2)
   end
 
 
